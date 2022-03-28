@@ -66,7 +66,11 @@ If everything is done perfectly so far there will be a window that appears as be
 
 Wait and see the data populate.
 
-Default auto refresh rate is 5 mins.
+## Note :
+
+- Default auto refresh rate is 5 mins.
+- Data will be stored from start of plot
+- Database will be reset on start and close of window
 
 
 ## Whats Next ?
