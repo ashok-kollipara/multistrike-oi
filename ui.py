@@ -6,7 +6,7 @@ import json_handler
 
 def list_expiries(index, expiry_box, mainframe):
     
-    #json_handler.get_OC_json(index)
+    json_handler.get_OC_json(index)
 
     lbl=ttk.Label(
             mainframe,
