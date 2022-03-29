@@ -4,18 +4,20 @@ import sqlite3
 import time
 from json_handler import get_oi, get_OC_json
 
-#clear stdout
-if os.name == 'nt':
-    os.system('cls')
-
-else:
-    os.system('clear')
-
 #standardize database file location
 
 path = os.getcwd()
 db_name = 'multistrike_oi.db'
-file_path= os.getcwd() +'\\'+ db_name 
+
+#clear stdout and give correct separator
+if os.name == 'nt':
+    os.system('cls')
+    file_path= os.getcwd() +'\\'+ db_name 
+
+else:
+    os.system('clear')
+    file_path= os.getcwd() +'/'+ db_name 
+
 
 def check_db():
 
